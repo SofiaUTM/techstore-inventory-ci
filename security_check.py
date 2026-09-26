@@ -14,7 +14,7 @@ if re.search(r'debug\s*=\s*True', text):
 if issues:
     print("SECURITY CHECK: FAILED")
     for issue in issues:
-    print(" -", issue)
+        print(" -", issue)
     sys.exit(1)
 
 print("SECURITY CHECK: PASSED")
